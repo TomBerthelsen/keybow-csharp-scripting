@@ -1,6 +1,7 @@
-# Original description from https://github.com/pimoroni/keybow-firmware below:
+# Original description below:
+https://github.com/pimoroni/keybow-firmware 
 
-# Keybow and Keybow MINI
+## Keybow and Keybow MINI
 
 [Buy Keybow and Keybow MINI here](https://shop.pimoroni.com/?q=keybow)
 
@@ -10,7 +11,7 @@ Keybow MINI is a three-key version of it's older sibling, Keybow.
 
 This Keybow OS is RAM-disk-based and built upon a stripped-down Raspbian, with C bindings that setup and run the USB HID, and a series of Lua-based scripts to customise the key layouts and lighting.
 
-## Using the Keybow software
+### Using the Keybow software
 
 Format a micro-SD card in FAT32 format (we recommend the SD Association's [SD Card Formatter](https://www.sdcard.org/downloads/formatter_4/), and then drop the contents of the [sdcard](sdcard) folder (only the files inside the folder) onto the freshly-formatted micro-SD card.
 
@@ -18,7 +19,7 @@ You can grab the latest `keybow-x.x.x.zip` file from https://github.com/pimoroni
 
 [Learn more about how to use Keybow on our learning portal](https://learn.pimoroni.com/keybow).
 
-## Building
+### Building
 
 You'll need a build toolchain.
 
@@ -26,7 +27,7 @@ You'll need a build toolchain.
 sudo apt install build-essential autoconf libtool libconfig-dev libpng-dev
 ```
 
-### bcm2835
+#### bcm2835
 
 Build the bcm2835 library and install into a local build directory for static linking.
 
@@ -40,7 +41,7 @@ make install
 cd ..
 ```
 
-### libusbgx
+#### libusbgx
 
 ```
 sudo apt install libconfig-dev
@@ -53,7 +54,7 @@ make install
 cd ..
 ```
 
-### lua
+#### lua
 
 ```
 sudo apt install libreadline-dev
