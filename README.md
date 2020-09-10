@@ -1,3 +1,5 @@
+# Original description from https://github.com/pimoroni/keybow-firmware below:
+
 # Keybow and Keybow MINI
 
 [Buy Keybow and Keybow MINI here](https://shop.pimoroni.com/?q=keybow)
