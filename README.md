@@ -1,3 +1,7 @@
+# Goal
+
+Convert the original Pimoroni Keybow Firmware to use C# (Roslyn) scriptiong opposed to Lua
+
 # Original description below:
 https://github.com/pimoroni/keybow-firmware 
 
